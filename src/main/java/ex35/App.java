@@ -10,14 +10,14 @@ public class App
 {
     public static void main( String[] args )
     {
-        String name = "temp";
         String[] names = {};
 
-        startNameLoop(name, names);
+        startNameLoop(names);
     }
 
-    public static void startNameLoop(String name, String[] names) {
+    public static void startNameLoop(String[] names) {
         Scanner input = new Scanner(System.in);
+        String name;
 
         do {
             System.out.print("Enter a name: ");
